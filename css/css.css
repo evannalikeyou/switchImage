@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: black;
+	font-family: "微软雅黑";
+}
+#photobox{
+	width: 641px;
+	max-height: 635px;
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -320.5px;
+}
+/*big photos*/
+#photo{
+	float: left;
+}
+#photos{
+	display: inline-block;
+	width: 550px;
+	height: 452px;
+	float: left;
+	overflow: hidden;
+}
+.turnppt{
+	width: 44px;
+	height: 494px;
+	cursor: pointer;
+	float: left;
+	display: inline-block;
+}
+#turnleft{
+	background: url(../image/turnleft.png) no-repeat;
+}
+#turnright{
+	background: url(../image/turnright.png) no-repeat;
+}
+#placeholder{
+	width: 550px;
+	height: 452px;
+}
+/*big photos*/
+/*small photos*/
+#smallphotos{
+	width: 641px;
+	float: left;
+}
+#ppt{
+	width: 540px;
+	height: 105px;
+	padding: 2px;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+}
+.smallppt{
+	width: 40px;
+	height: 105px;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+#smallleft{
+	background: url(../image/smallturnleft.png);
+}
+#smallright{
+	background: url(../image/smallturnright.png);
+}
+#ppt_image{
+	display: inline-block;
+	width: 540px;
+	height: 101px;
+}
+#image{
+	width: 660px;
+	float: left;
+}
+#ppt_image ul{
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+#ppt_image ul li{
+	position: relative;
+	float: left;
+	list-style: none;
+}
+.ppt_smallphotos{
+	width: 98px;
+	height: 98px;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	border: 1px solid #cecfcf;
+}
+#photo_on{
+	border: 1px solid #afd8fe;
+	box-shadow: 0 0 2px 2px #afd8fe;
+}
+/*small photos*/
+#description{
+	padding: 0 50px;
+	display: inline-block;
+	text-align: left;
+	text-indent: 2em;
+	color: #535454;
+	font-size: 12px;
+	line-height: 1.5em;
+}
